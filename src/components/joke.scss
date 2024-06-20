@@ -1,0 +1,48 @@
+.joke{
+    padding: 20px;
+    box-shadow: 0 0 15px rgb(30, 30, 34);
+    background-color: rgb(209, 103, 209);
+    color: rgb(25, 15, 15);
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    width: 410px;
+
+
+    .id{
+        font-size: 1.5rem;
+        color: rgb(59, 40, 14);
+    }
+    .data{
+        font-size: 1.8rem;
+        color: chocolate;
+    }
+    .rating{
+        font-size: 1.9rem;
+        font-weight: bolder;
+        color: brown;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+    button{
+        background-color: rgb(101, 89, 22);
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      height: 50px;
+      padding: 10px 15px;
+      font-size: 0.5em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover{
+        background-color: #0056b3;
+      }
+
+      
+    }
+    }
+}
+
